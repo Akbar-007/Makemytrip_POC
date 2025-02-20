@@ -44,7 +44,8 @@ public class Home_Page extends Base_File{
 		 Click(getToenterloco());
 		   Click(getTolocation());
 		   Click(getPickupdate());
-		   Click(getClicksearchbutton());  
+		   Click(getClicksearchbutton()); 
+		System.out.println("Home page Done"+"atata");
 	}
 	
 	public WebElement getPopupcancel() {
