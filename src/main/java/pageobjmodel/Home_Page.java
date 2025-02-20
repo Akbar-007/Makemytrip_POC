@@ -29,10 +29,11 @@ public class Home_Page extends Base_File{
 	}
 	
 	public void login() {
-		System.out.println("Lets Start");
 		Browser_Launch(driver, "https://www.makemytrip.com/");
 		 implicit(driver);
 		   Click(getPopupcancel());
+
+		System.out.println("Hi");
 	}
 	public void busespickupplace() {
 		 Click(getClickBuses());
