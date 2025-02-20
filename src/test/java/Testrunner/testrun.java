@@ -23,6 +23,7 @@ public class testrun extends Base_File {
 	
 	@BeforeClass
 	public static void start() {
+		Hello
 		driver = new ChromeDriver();
 		Maximize(driver);
 	}
